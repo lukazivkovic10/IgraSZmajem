@@ -45,7 +45,7 @@ public class DragonGame {
             pozHealth = poz(); // Priklic zdravljenja
             playerHealth += pozHealth; // Pristeje k tvojemu healthu
             if (playerHealth > 100) {
-                while (playerHealth == 100) {
+                while (playerHealth > 100) {
                     playerHealth -= 1;
                 }
                 ;
